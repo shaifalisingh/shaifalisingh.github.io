@@ -1,0 +1,128 @@
+<!-- This page shows the comparison between the four plots:
+1. Latitude vs Max Temperature
+2. Latitude vs Humidity
+3. Latitude vs Cloudiness
+4. Latitude vs Wind Speed -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width device-width, initial-scale=1">
+  <title>Comparison</title>
+  
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Reset style sheet -> reset the styling of all HTML elements to a consistent baseline -->
+  <link rel="stylesheet" href="reset.css">
+
+  <!-- Landing page style sheet -->
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </button>
+        <a class="navbar-brand" id="border-fill-comparison" border-fill" href="Landing-Page.html">Latitude</a>
+      </div> <!-- div class="navbar-header" -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="MaxTemp.html">Max Temperature</a></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+              <li><a href="Windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="WeatherComparison.html">Comparison</a></li>
+          <li><a href="WeatherData.html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- Our rows function in containers (grid created). -->
+  <div class="container well">
+    <!-- Our columns function in rows. -->
+    <!-- First row for the title -->
+    <div class="row">
+      <div class="col-md-12" >
+        <h1 class="header-line">Comparison: Latitude vs X</h1>
+      </div> <!-- <div class="col-md-12" > -->
+    </div><!--  <div class="row"> --> 
+    
+    <!-- First row for the title -->
+    <div class="row">
+      <div class="col-md-12" >
+        <p >Click any plot to get an in-depth analysis</p>
+      </div> <!-- <div class="col-md-12" > -->
+    </div><!--  <div class="row"> --> 
+    <!-- Second row includes the first two plots -->
+    <div class="row">
+      <!-- First col of row 2 -->
+      <div class="col-md-6" >
+          <h2 class="override-margin">vs Max Temperature</h2>
+          <figure>
+            <a href="MaxTemp.html">
+            <img class = "img-responsive" src= "MaxTemp.png" alt = "Latitude vs Temperature"></a> 
+          </figure> 
+      </div><!-- <div class="col-md-12 well"> -->  
+      
+    
+      <!-- Second col of row 2 -->
+      <div class="col-md-6"> 
+         <h2 class="override-margin">vs Humidity</h2>       
+	       <figure>
+            <a href="Humidity.html">
+            <img class = "img-responsive" src= "Humidity.png" alt = "Latitude vs Humidity"></a> 
+          </figure>
+    	</div>  <!-- div class = "col-md-6" -->
+    </div>	<!-- <div class="row"> -->
+  
+    <!-- Third row includes the third and fourth plots -->
+      <div class="row">
+      <!-- First col of row 3 -->
+        <div class = "col-md-6"> 
+          <h2 class="override-margin">vs Cloudiness</h2>
+          <figure>
+            <a href="Cloudiness.html">
+            <img class = "img-responsive" src= "Cloudiness.png" alt = "Latitude vs Cloudiness"></a> 
+          </figure> 
+        </div> 
+      
+      <!-- Second col of row 3 -->
+      <div class="col-md-6"> 
+        <h2 class="override-margin">vs Wind Speed</h2>
+		    <figure>
+            <a href="Windspeed.html">
+            <img class = "img-responsive" src= "WindSpeed.png" alt = "Latitude vs Windspeed"></a> 
+        </figure>  
+      </div> <!-- div class = "col-md-6" --> 
+  
+      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+    
+  </div> <!-- div class="container" -->  
+     <!-- jquery file  -->
+  <script type="text/javascript" src="jquery-3.2.1.js"></script>
+  <!-- bootstrap javascript file -->
+  <script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>

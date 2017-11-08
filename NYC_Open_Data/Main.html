@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+  
+ <!-- bootstrapcdn stylesheet -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  
+ <!--reset stylesheet -->
+  <link type="text/css" rel="stylesheet" href="reset.css">
+  
+ <!-- landing page stylesheet  -->
+  <link type="text/css" rel="stylesheet" href="bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  
+ <!-- jquery file  -->
+  <script type="text/javascript" src="jquery-3.2.1.js"></script>
+  
+ <!-- bootstrap javascript file -->
+  <script type="text/javascript" src="bootstrap.js"></script>
+
+</head>
+
+<body>
+
+<!--Naigation bar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Main.html">NYPD Data</a>
+    </div>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <i class="icon-search">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</i></button>
+      </form>
+    <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-1" aria-expanded="true" style="">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Analysis<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+                    <li><a href="Borough.html">Accidents by Borough</a></li>
+                    <li><a href="Streets.html">Streets with Max Accidents</a></li>
+                    <li><a href="Factors.html">Top 10 Factors of Accidents</a></li>
+                    <li><a href="Trends.html">Trend Over Time</a></li>
+                    <li><a href="Relationship.html">Relationship between Factors and Causes</a></li>
+                    <li><a href="Months.html">Monthly Trend Each year</a></li>
+          </ul>
+        </li>
+        <li ><a href="Comp2.html">Comparison<span class="sr-only">(current)</span></a></li>
+        <li><a href="Data.html">Data</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+</div>
+
+
+<br>
+
+
+<!-- Creates the Overall Grid -->
+<div class="layout">
+<div class = "jumbotron">
+  <div class="container">
+  <h1>Exploring NYC Vehicle Crash Data </h1>
+  <img src="1.png"/>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    </div>
+</div> 
+<div class="row">
+<div class="col-md-8">
+  <h1>Summary </h1>
+    <p><img href = "" align = "left" src="Capture.png" />
+  <h4>Approximately 8.2 million people live within the five boroughs that make up New York City. Every year, thousands of accidents occur due to a multitude of contributing factors. NYPD collects information about each of those accidents and provides it for public use on nycopendata.socrata.com. We decided to explore the crash data to see if there were any underlying trends and relationships that could explain the number of accidents occurring. The data contained over 600,000 observations from July 2012 to July 2015. We chose to exclude August 2015 data, given we didn’t have the full month of data. </h4>
+</p>
+<p>
+<h3>Initial Questions + Hypothesis</h3>
+<h4>Before exploring the data, we created a list of questions we wanted to address:</h4>
+<br>
+<p><h4>*Is there a relationship between the time of day and the contributing factors of the accident?</h4></p>
+<p><h4>*How does location influence the number of accidents occurring?</h4></p>
+<p><h4>*Is there a trend in the number of accidents?</h4></p>
+<br>
+<br><br>
+
+</p>
+<p><h4>
+We also wanted to see if our hypothesis of “more alcohol related incidents occur between the hours of 10 p.m. and 4 a.m.” was valid. All of these questions and our hypothesis are addressed in the writeup below. First, here's the viz for you to explore:
+    </h4></p>
+</div>
+
+
+
+<div class="col-md-4">
+
+<div class="row">  
+<div class="col-md-4"> 
+  <h2>Visualization Analysis</h2>
+  <br>
+</div>  
+</div>
+
+<div class="row">
+  <div class="col-md-4 floating-box">
+    <a href="Borough.html">
+      <img  src="Capture.png" /></a>
+     </div>
+  <div class="col-md-4 floating-box">
+  <a href="Streets.html">
+  <img src="2.png" /></a>
+     </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-4 floating-box">
+    <a href="Relationship.html">
+     <img src="6.png" /></a>
+   </div>
+  <div class="col-md-4 floating-box">
+    <a href="Trends.html">
+     <img alt = "Trends" src="4.png" /></a>
+   </div>
+</div>
+
+</div>
+</div>
+
+<!-- Container -->
+</div>
+
+
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="Borough.html">Next</a></li>
+</ul>
+
+
+
+<div >
+<!--Naigation bar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+      </button>
+      <a class="navbar-brand set" href="#">@Copyright Coding Bootcamp 2017</a>
+    </div>
+</div>
+</nav>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+.floating-box {
+    float: left;
+    margin: 10px;
+    border: 1px solid #000000; 
+    overflow: hidden; 
+    height: 200px;
+    width: 200px;
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid red;      
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: inline-block; /* ie8 */
+}
+
+
+.layout {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.set {
+    text-align: center;
+}
+
+td, tr, thead {
+width:0.1%;
+white-space: nowrap;
+overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    max-width: 300px;
+    font-size: 0.9vw;
+} 
+

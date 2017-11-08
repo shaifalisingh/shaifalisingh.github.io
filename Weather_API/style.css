@@ -1,0 +1,133 @@
+body {
+	font-size: 14px;
+	background-color: #EEEEEE
+}
+/*h1, h2 {
+	display:block;
+}*/
+
+h1 {
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+hr	{
+	top-margin: 10px;
+}
+
+.box {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background: deepskyblue;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-top-80 {
+  margin-top: 120px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+/*This makes sure there's enough space between the graph and the para, 
+and the para and the outer box*/
+.margin-para {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.right-para {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+
+.big-fig	{
+	height: 200;
+	width: 200;
+}
+
+
+h1,h2	{
+	color:	#00CED1;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+p{
+	line-height: 30px;
+}
+
+.override-margin	{
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+#border-fill-humidity	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-cloudiness	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-data	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-index	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-windspeed	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-maxtemp	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+#border-fill-comparison	{
+	border:	3px solid #00CED1;
+	background-color:	#00CED1;
+	color: white;
+}
+
+.fig-blue-border	{
+	border: 1.5px solid #00CED1;
+}
+
+.float-left	{
+	float:left;
+}
+
+/*.humidity-header	{
+	border-bottom: 1px solid #00CED1;
+}*/
+
+.header-line {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.75);
+}
